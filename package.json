@@ -1,0 +1,26 @@
+{
+  "name": "booking-calculator",
+  "version": "1.0.0",
+  "description": "A simple node app that determines the cost of booking",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "calculator",
+    "booking",
+    "hireup"
+  ],
+  "author": "Yousuf Alvi",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "moment": "^2.22.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
